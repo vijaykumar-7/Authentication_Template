@@ -1,0 +1,86 @@
+.main-nav{
+  display: grid;
+  grid-template-rows: 50px;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.509);
+}
+
+.main-nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.main-nav ul li{
+  list-style: none;
+  margin: 20px;
+}
+
+.main-nav ul div{
+  display: flex;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+a:hover{
+  color: rgb(0, 0, 255);
+}
+
+.register, .login{
+    min-height: 450px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+  
+.register form{
+    background-color: #fff;
+    width:260px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.login form{
+  background-color: #fff;
+  width:260px;
+  height:300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register form input, .login form input{
+  margin:8px;
+  padding:4px;
+  width:220px;
+  height:42px;
+  text-indent: 5px;
+}
+
+
+.register form button, .login form button{
+  width:200px;
+  height:36px;
+  border-radius: 10px;
+  background-color: #0f489e;
+  color:white;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 3px;
+}
+
+.fp{
+  color:blue;
+  text-decoration: underline;
+}
